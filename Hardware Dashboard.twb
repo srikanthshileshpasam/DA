@@ -1,0 +1,797 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.20.0313.1709                               -->
+<workbook original-version='18.1' source-build='2019.2.10 (20192.20.0313.1709)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='HARDWARE (IT_Inventory_System)' inline='true' name='federated.0wcmpgm113atjy19m3lpi1ckp35h' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='LAPTOP-47C8DGE1' name='sqlserver.1pryjw71ceujep12llstz1ncxupx'>
+            <connection authentication='sspi' class='sqlserver' dbname='IT_Inventory_System' minimum-driver-version='SQL Server Native Client 10.0' odbc-native-protocol='yes' one-time-sql='' port='0' server='LAPTOP-47C8DGE1' />
+          </named-connection>
+        </named-connections>
+        <relation connection='sqlserver.1pryjw71ceujep12llstz1ncxupx' name='HARDWARE' table='[dbo].[HARDWARE]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>HardwareID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HardwareID]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>HardwareID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HWTCode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HWTCode]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>HWTCode</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Description]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>Description</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manufacturer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Manufacturer]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>Manufacturer</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Purchasing_Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Purchasing_Date]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>Purchasing_Date</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+              <attribute datatype='boolean' name='TypeIsDateTime2orDate'>true</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hardware_Cost</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Hardware_Cost]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>Hardware_Cost</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manufacturer_Weblink</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Manufacturer_Weblink]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>Manufacturer_Weblink</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Warranty_Details</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Warranty_Details]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>Warranty_Details</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Additional_Details</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Additional_Details]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>Additional_Details</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dimensions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dimensions]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>Dimensions</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Power_Consumption</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Power_Consumption]</local-name>
+            <parent-name>[HARDWARE]</parent-name>
+            <remote-alias>Power_Consumption</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Additional Details' datatype='string' name='[Additional_Details]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Description]' role='dimension' type='nominal' />
+      <column caption='HWT Code' datatype='string' name='[HWTCode]' role='dimension' type='nominal' />
+      <column caption='Hardware ID' datatype='string' name='[HardwareID]' role='dimension' type='nominal' />
+      <column caption='Hardware Cost' datatype='integer' name='[Hardware_Cost]' role='measure' type='ordinal' />
+      <column caption='Manufacturer Weblink' datatype='string' name='[Manufacturer_Weblink]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Power Consumption' datatype='integer' name='[Power_Consumption]' role='measure' type='quantitative' />
+      <column caption='Purchasing Date' datatype='date' name='[Purchasing_Date]' role='dimension' type='ordinal' />
+      <column caption='Warranty Details' datatype='string' name='[Warranty_Details]' role='dimension' type='nominal' />
+      <column-instance column='[Purchasing_Date]' derivation='Month' name='[mn:Purchasing_Date:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Description]' derivation='None' name='[none:Description:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.625' measure-ordering='alphabetic' measure-percentage='0.375' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[mn:Purchasing_Date:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>2019</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>8</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Description:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;CPU&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;LCD&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Laptop&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Router&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Keyboard&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Mouse&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Head Phone&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Server&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 1 (2)' />
+      <command command='tsc:brush'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Sheet 1 (2)' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>HARDWARE COST BY MANUFACTURER</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HARDWARE (IT_Inventory_System)' name='federated.0wcmpgm113atjy19m3lpi1ckp35h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wcmpgm113atjy19m3lpi1ckp35h'>
+            <column caption='Hardware Cost' datatype='integer' name='[Hardware_Cost]' role='measure' type='ordinal' />
+            <column datatype='string' name='[Manufacturer]' role='dimension' type='nominal' />
+            <column-instance column='[Manufacturer]' derivation='None' name='[none:Manufacturer:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Hardware_Cost]' derivation='Sum' name='[sum:Hardware_Cost:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[none:Manufacturer:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='auto-subtitle' class='0' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' scope='rows' value='true' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-size' data-class='subtotal' scope='cols' value='10' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#000000' />
+            <format attr='font-weight' data-class='subtotal' scope='cols' value='bold' />
+            <format attr='font-weight' data-class='total' scope='cols' value='bold' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#000000' />
+            <format attr='font-size' data-class='subtotal' scope='rows' value='10' />
+            <format attr='font-weight' data-class='subtotal' scope='rows' value='bold' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='font-weight' scope='cols' value='bold' />
+            <format attr='color' scope='cols' value='#000000' />
+            <format attr='color' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='#000000' />
+            <format attr='font-weight' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='bold' />
+            <format attr='font-size' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='9' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#89898939' />
+            <format attr='border-width' value='1' />
+            <format attr='border-color' value='#f28e2b' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='10' />
+            <format attr='color' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='#000000' />
+            <format attr='font-weight' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <dropline drop-when='always' haslabel='false' x-axis='false' y-axis='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.087458610534668' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='mark-color' value='#76b7b2' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]</rows>
+        <cols>[federated.0wcmpgm113atjy19m3lpi1ckp35h].[none:Manufacturer:nk]</cols>
+      </table>
+      <simple-id uuid='{380524F3-4666-419C-A010-DA438838F487}' />
+    </worksheet>
+    <worksheet name='Sheet 1 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Hardware Type by Cost %</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HARDWARE (IT_Inventory_System)' name='federated.0wcmpgm113atjy19m3lpi1ckp35h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wcmpgm113atjy19m3lpi1ckp35h'>
+            <column datatype='string' name='[Description]' role='dimension' type='nominal' />
+            <column caption='Hardware Cost' datatype='integer' name='[Hardware_Cost]' role='measure' type='ordinal' />
+            <column-instance column='[Description]' derivation='None' name='[none:Description:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Hardware_Cost]' derivation='Sum' name='[pcto:sum:Hardware_Cost:qk:6]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[Description]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Hardware_Cost]' derivation='Sum' name='[sum:Hardware_Cost:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-size' data-class='subtotal' scope='cols' value='10' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#000000' />
+            <format attr='font-weight' data-class='subtotal' scope='cols' value='bold' />
+            <format attr='font-weight' data-class='total' scope='cols' value='bold' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#000000' />
+            <format attr='font-size' data-class='subtotal' scope='rows' value='10' />
+            <format attr='font-weight' data-class='subtotal' scope='rows' value='bold' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='font-weight' scope='cols' value='bold' />
+            <format attr='color' scope='cols' value='#000000' />
+            <format attr='color' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='#000000' />
+            <format attr='font-weight' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='bold' />
+            <format attr='font-size' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='9' />
+            <format attr='color' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[pcto:sum:Hardware_Cost:qk:6]' value='#000000' />
+            <format attr='font-weight' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[pcto:sum:Hardware_Cost:qk:6]' value='bold' />
+            <format attr='font-size' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[pcto:sum:Hardware_Cost:qk:6]' value='9' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#89898939' />
+            <format attr='border-width' value='1' />
+            <format attr='border-color' value='#f28e2b' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='10' />
+            <format attr='color' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='#000000' />
+            <format attr='font-weight' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' value='bold' />
+            <format attr='font-size' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[pcto:sum:Hardware_Cost:qk:6]' value='10' />
+            <format attr='color' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[pcto:sum:Hardware_Cost:qk:6]' value='#000000' />
+            <format attr='font-weight' field='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[pcto:sum:Hardware_Cost:qk:6]' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[none:Description:nk]' />
+              <size column='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[sum:Hardware_Cost:qk]' />
+              <text column='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[none:Description:nk]' />
+              <text column='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[pcto:sum:Hardware_Cost:qk:6]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0wcmpgm113atjy19m3lpi1ckp35h].[none:Description:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Server&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{878A4C5A-7DB0-4827-BDCF-5E188C325AB5}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0wcmpgm113atjy19m3lpi1ckp35h].[none:Manufacturer:nk]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wcmpgm113atjy19m3lpi1ckp35h].[mn:Purchasing_Date:ok]</field>
+            <field>[federated.0wcmpgm113atjy19m3lpi1ckp35h].[none:Description:nk]</field>
+            <field>[federated.0wcmpgm113atjy19m3lpi1ckp35h].[none:Manufacturer:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C1E6EB49-EC0F-442E-99D4-4DC9227358E9}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wcmpgm113atjy19m3lpi1ckp35h].[cnt:Description:qk]</field>
+            <field>[federated.0wcmpgm113atjy19m3lpi1ckp35h].[mn:Purchasing_Date:ok]</field>
+            <field>[federated.0wcmpgm113atjy19m3lpi1ckp35h].[none:Description:nk]</field>
+            <field>[federated.0wcmpgm113atjy19m3lpi1ckp35h].[none:Manufacturer:nk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{A5904E96-BBE8-432A-9BD3-AD81DE11DCD3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAcpElEQVR4nO2deXAc532mn+65ByeJgyBuECAOghQInpZIiyItWqIk6qDjyI4vWU4sx0ns
+      rcTZWq/3j01lncrWViVx4o2cuByvY6csR5Ily6aoi+IhghQPkBAvEBjc5wxuYIA5+9g/QEKC
+      AJCcmR4C4HxPFQozmP56Xkz32/31973TP0nXdR2BIEGRF1uAQLCYxNUAqqrGc/UCQcyIM4Ag
+      oREGECQ0wgCChEYYQJDQCAMIEhphAEFCY45kYV1TOfzmQVJWl6F42hg3OdlcXcqx46fJL99A
+      wO1iNGzlqccfFs4SLAsiMkBgopPzF7uollOwayr+yVHOH32T6k89y+nfPI/ZkUumPIYnoJNt
+      0VBVFTHRLFjKRGQAsy2NVXk5jLk7uXfXHibaL3C114bUcg2TIwMt7GNUV0mxSJhMJoCZ37fC
+      7/fz9ttvs27dOsrKymhsbOTatWuUl5fT1NREYWEhw8PDBINBHn300dter0BwM6RIs0ADvR2E
+      zCmkmEJ0D01RXVFK89XL5JVWERp3MxG2UJy/CpieCb7dHbW+vp7u7m7S09N54IEHGB0d5dVX
+      X6WkpISamhouXboEQFpaGkVFRaSnp0f4rwoEc4nYAJEQiQE8Hg9nzpzBZrOxbds23G43fX19
+      KIqCqqo4HA7Gx8fRdZ1HHnkEq9UaL9mCBGLJGADA6/VisVjo7u6moKAAv99Peno6Xq+XpKSk
+      GTM4nc54SRYkGHE1wNTUFJqmLfDOEpLJmKO4zWLCYhbXBILIiegiOFKmpqYIBALzvtY1MMmv
+      WpqRDdhvn6qo4YF7SmJfkSDhiKsBMjIyFuwCBeVhbO4WTGYp5veRxKSDIErEriNIaIQBBAmN
+      MIAgoREGECQ0kV0E6zqNF8/hk1PJTzNxqdXD/Ts2c/LYMdZs2IZ/sI2RkJV7N2+Ik1yBwFgi
+      MkBoysNv3zjBnn37ePvd49y3oYh/ff55tj32FQ6//iKyOY1UKcDIPetZYQZd1xecBzBy+kHX
+      WXi+QSC4CREZQFNDrC6pouXC+/hVsJjNBINBzFYbuq4hSRKyLKHp0zv4jZ/5MHT67SbvEylt
+      bW20trayZcsWVqxYwfHjxwEoLS3lgw8+4P777+fUqVPk5+dTVVVlyHsKFo+IDGBPzacqv52Q
+      dRMF6SYutrj55rf+jOPvHOaTez+D3+NiJGwl0yoBErquLzgPIMuxj//fQJIlw9Khg4OD6LqO
+      2Tz90YyMjADTZ5jdu3fz1ltvUVNTQ3d3t0ik3gVEdg0gyWy5b9fM04KyagAeeuzx6T8UZhkm
+      bLGorKxE13UuXrzI9u3bsdvtSJJEKBRifHwcp9OJ1+slFAottlSBAYhRoI+hqiqXL19m7dq1
+      dHV1UVBQQH5+Pjt37qSjo4MHH3wQRVGoqalZbKkCA4hrFOJm1wDoN34M6LvrsV1US9KH3bGs
+      rCx27do173I7duwAYMuWLVG/l2BpEVcD9PX1MTk5Oe9r/cOTmMfGDMnxDEqdNJr8UbW94vbS
+      Foiu7UdRwjrf2nsfKU5bzOsS3DniaoC8vLwFLxQtPcMo425DwnBZ+UWsWxddGrTF18hIaCBm
+      DUFFQ1HFUOxyQ1wDCBIaYQBBQiMMIEhohAEECU3EYbieznYUk4OVyRb6B0cpLC5hxN1DxuoC
+      wlNj+FQTqzLELUsEy4OIzgBa2MevXnoVVdc5+PJLjPpD9F8+xpmmPl769Sv8+te/5Y1XXsEn
+      BkMEy4SIzgCS2caj+x7kzYOHeGL/Pi6eOkp9l5s9X/5LTr3yQ8zOfLLkScaCOjbrzW+NqBo4
+      ZKhpGoqiRN3WKFRVjVqHYHGIMA0apK/Hzer8AsYGPfh1Gw898SSn3/5P1tTswu92MRpKI8ch
+      IXPzWyOaTMZdfsiyPBNei6atUZhMpqh1CBaHiLaWyZLEnoc+PfO8unYbAGVlFdf/IvIxguWF
+      GAUSJDTCAIKERhhAkNAIAwgSGmEAQUIjDCBIaIQBBAmNMIAgoREGECQ0kdUJVgI8/8//Su2O
+      3QSH2uj1jFG7ZSNn6hvJzi8i4GllPGTmS1/6HAZ801EgiDuRGQAoLMylrbWN8NQw++9bx9//
+      9AW++J2/4eTL/4Q5qYDVFi+egE6OCMMJlgGRGUBXWbkyh35XO5kpFt4928jeh/dw+vBrOLNL
+      CY300RmW2W2XMEkiDCdY+kS0tWSzk9ottWy59xOYZQiEFBx2G9v8Pqx2J5oSQtUlbKL7I1gm
+      RHT4kyQJhzMJq8WMbDLjdNhn/maSJSxWG3abqN9rFFevXiUUCqEoCkePHuXw4cOMjY1RV1eH
+      oiicPXuWgYHYb+mSyIhRoCXK6OgoR48exefzYTab2bVrF5IkUV9fT2FhIe+88w52u52GhobF
+      lrqsEQZYopw4cQJd1+ns7ASgq6uL/Px8zGYzqamp+Hw+kpOTsVrFGTcWxBXbEmX//v10dXVh
+      Nptpa2sjHA5TXl6Ow+Ggrq6OvXv3curUKQoLCxdb6rJGGGAJU1hYiKIoyLI8M1pVUFBAQUEB
+      AJ/+9Kdv1lxwG8TVAL29vXi93nlfc49MYh4ZRTLFPmQ0QCdXJF9UbUf7epG9ozFrsAQ1XM1N
+      JNkt0elQbXQtcCPhSFAV+Own1mO3imPb7bBoN8e19gyjjHsMuTludn4R1dXR3Ry31S+jDQVj
+      1hCe0lhbXsGKFEdU7V85c4UPJrpj1hGYVHlCqRIGuE3ERbAgoREGECQ0EZ8nB9obOd7oYU2q
+      jiegs3VjNXXHT1BcvRW/x8VoyMrDD34SMRksWA5ElgXSFI7VNzLhnaTfbyFsTeXqiUOU3PsH
+      nDv4Y8y2Vaw0+RgI7iTTLMJwEekwsG6sqohQ3u0SkQEC424UFRpd7Tz27W8y0V7PkYYpqoYH
+      kMxONDWEX9Owmz4sWyrCcLepQzLunGkyi1De7RLRp+RYkc/nn87n3u2b0YMTDEjZPPtHD3L+
+      /ZPsf+ppAkNdjISspInPXrBMiGpXLS4uAiDn+iTkth33Tz9IqyTfEFkCwZ1BjAIJEhphAEFC
+      IwwgSGiEAQQJjTCAIKERBhAkNLMM0NfXh8fjWSwtAsEdZ9Y8QEdHBz6fD13XycnJWSxNAsEd
+      Y04XqKenh7q6Oi5dujRvg5B3mPpLzXiH3Zw624CmqZw9+R7DE35625u41NQed9ECgVHMOgNs
+      2LCBtWvXTr8wX5ZE13nr7aN0j0xxzaKwcW0u//7T06zZ/giv/foFJGwkSSGKykpInT8CJBAs
+      KWbt5SkpKchaGOyphCZHCas6lo98ZdE30kVzzxB9bjfrSvPJSEumt9fNpoxV6IoPky0Fh0nB
+      r+gkIdKgEekQadBFYZYBdF3jh9//c4ZSahhpreev//H/kZv64SLOjCL+/FvPcaLuFNnJJk66
+      BviTb/0JRw+/xqadj+H3NDMSyiLbJiGJOsGR6RBp0EXhY5+SxI49jzLpKGT1gUdZnTr/h7hz
+      x70AlF8vC/zkZ35v+kFlUbx0CgRxYdbhT5IkHCaFs8cP853v/g8Gp9TF0iUQ3BHmnP8zsnO5
+      2uHhwN4dmA24ZYlAsJSZY4DMvBIK0yWGwzZSrGKiWHB3M2cPv3Tqbcp2HkDzXGZgUowkCO5u
+      ZhlA13Xu+eTjKF2nKdy0j9UpYiRBcHczywCB/ov83X8c5Y+//Zf4Ok7R7xVnAMHdzSwD2DKK
+      6T37Gn/1V/+TCz0KGUliOldwdzOrjyPb0vjH53+EZ2iUrFU52MUokOAuZ85FsITC0WPHOPf+
+      +wTU2dPzuq4TDPgJKypKOIzP50PVdIKBAJqmoyhhQmHRbRIsH+Zc5Z5581c0tE/iunqewns+
+      QWH6h4toqp/zZ89z4ZqLDLNCVvkGilNUjl8ZwOGwERruZSos89XnviYK5QmWBXMMULFpB77X
+      /4GcjfeT97E7XJnMTlKdGipWNm2v5dzp07R5vez8g7+YqRNc7PQyJOoER65DhOEWhTkGGO7v
+      omdc40BlIcGwhvMjk2HhqRF6hgOkOm0EAiEsNgebazZx6tALrFq7mYCnld6QhQdFneDIdYgw
+      3KIw51NKzS7i8Qe309HRwfb7ds56zZK0koc+UpZnw6ZtANRu2nr9Lzvip1QgiANzDn+TQz38
+      7vU3ee3gGwRV407LAsFSZI4B/D4fv/+lZ7mnshhVE1eygrubOQawp67kasM5KtZvJc0uDCC4
+      u5lrAIcTm1nG1dxIUBFdIMHdzRwDpGXkkGrTaLx6lUDYuCFCgWApMscA7u4WgpYM/ut/++9k
+      JYuhNMHdzaw9vKHuEH/3g38hYM/i9KkTPP/TX7BKmEBwFzNr7964Yx9/EfLys6Od+Hob0UWt
+      R8FdzpzDe1pWATmZ4xz46l+Tkzx7FlfXdZRwGMlkxiSBomqYzSYUJYzJbEHXVHRdwmwWMWrB
+      8mCOAaYmhvn5j39ES9NVvv+3/2fWdYCm+jlz8iwfuNopSDcz6QtSsKaE5q5RkpKdhIa6mQyZ
+      ePYbIgwnWB7MMcDajZ/kf/+v7zERBIdl9l5sMjtJT5FQsTDiDfLYjmr+/qe/4Yvf+ZuZMFyJ
+      CMNFp0OE4RaFOQY4986LvHzYhTk8xZ5HniDZ9uFrN8JwyQ4LeSscHHr/Gk9/4bOcOvQC2WWb
+      psNwQRGGi0qHCMMtCnM+peLKTXwuuYzXD76B7WPfCPt4GO4GGzZsuv5o55zXBIKlzCwD+Dwu
+      vvv9HzDhnWBFdh7BsAZ2cW8gwd3LrL3bkV3GT37yE6o3VPPj//sDspLFaI7g7maWAfwDLp55
+      5hka6ht49ht/xqC4MZbgLmdWF8i5qpxf/OIXi6VFILjjiA6+IKERBhAkNMIAgoRGGECQ0AgD
+      CBKaiObLVcXPscNHGfbrZFrC+G0pbKoq5sjxs+SVrSPgcTEasvLZA48JZwmWBREZQDbZqaoo
+      4Y0Tl8nOceAbHeLckWZqHvoj3n/lnzE788iSR3AHdFZZRBguIh0iDLcoRGQAJTDCz154g2e+
+      9mWC3lFsrga6x1JpuXweS8oqNL+XQV0jzSphkkUYLiIdIgy3KET0KZnMSex/9FOMjY2Rm5lG
+      uHwb24vz6WprIWvHAcLeEaZUM0mi/yNYJkTWBbLYqd6wYeZ56orp30Wla6cfZGSTZpg0gSD+
+      iPOk4KacOXOG5uZmDhw4gKZp1NXVzVxzBQIBSktL6erqory8nHXr1i223IgRnRXBTSkuLiY7
+      OxubzUZSUhIrV66kpKSEtLQ0qqqq6Ozs5Mknn2RoaGixpUaFMIBgQXRd55VXXsFkMjE8PExT
+      UxMNDQ2oqsrExATXrl2juLiYV199laysrMWWGxWiCyRYEEmSeO655wDo6emhvLycyspKAKqr
+      q2eWq62tXRR9RhBXA4yMjBAIBOZ9bWhwAtPkFJIB37mZGB6kuzu6f2VqdBjJOxmzBlNAp7+/
+      j8kxa1TtfWMG6fDr9Pf1Mm6zRNVeNTnQmGejyEl0uMdvez02q5m8zJSoNNxJ4moAh8OB1Tr/
+      DuH0aWhWC7IBlShtjiRSU1OjamuxO9AX0BgJmqqRkpxCapLt1gvPq8OJ7o9dh65M60hyRLeu
+      fzpyllGTL2YdmVIK331sd8zriTdxN8BCE2FOrzK945kNMIDTSVpadAOwVocTbMbseMkpKaSl
+      OKJqb7E7DNGhhVWSU1NJdUZnRLPVhFmOfZvIy6S2hLgIFiQ0kRlA1+npcNHjGSY4Nc41Vwe6
+      rtNy7QpTQYXRgT46+wbjJFUgMJ7I0qBqgMkAHDn4ImmpdopXpfHrhpM4V6+nrv5FCIUx6yqZ
+      X/kqSeKGEoJlQGRRCNlKy+UzbH1gL1fPHKOsYBVvHT/EZ3c9TX/jMcyOPFbIk0yEdeyINGhE
+      OpZIGtQoGTq6oYnUjo4OsrOzcTqdjI+P09DQwJYtWzh//jxbt26lvb0dh8NBcXFxROuNyABh
+      3yBtPROk5Y1RXVHC0Uu9fP2bf8jxd1+iYvOn8LtdjIYyWWWXkBFp0Ih0LJE0qFEyJCTDEqmK
+      otDc3IzVaiU1NZX6+npKS0t57bXX2LdvH++99x7Jycn09fVRVlYW0bojUmhNzuFb/+WPZ55v
+      vv77c58ruv5o+WVBBEsfs9lMaWnpzPOkpCTa29tJSUkhPT0dRVFISkpCVdWI1y1GgQRLnmAw
+      SFNTEy6XiwsXLpCZmYmiKFRVVXHo0CG2b9/O5OQkycnJEa9bRCEESx6bzcbjjz8OQCgUwmq1
+      UlFRATDzOzs7O6p1x9UAvb29eL3eeV9zj0xiHhlFMmAmeIBOrkjRzV6O9vUie0dj1mAJaria
+      m0iyRxdBGHP3GKMjoNF87RoOW3SbVh0ZRJbmj69EtB49wJUrV6Jqq6g6V8aVmFMCOrC7opSc
+      jIXPDHE1QF5e3oIXwdaeYZRxDyYDZoKz84uori6Jqm2rX0YbCsasITylsba8ghVRzgQ3T4Fm
+      DcWuY1KlvLIy6png33YOoMkGZJK0lFmBuUgYnwryb4cOYY/x5syapnOPN3fxDHCzIUZN06bH
+      3LTYx910TYvqAuhGW4wYCtV1tFh06AbqUNWodUxvEyN0RP9ZaKpqiA5J55afRVwN4PF4mJyc
+      /2jSP+zFPD6OZEDuZNjci8sajqrt+EA/8sREzBrMQY32tlaSowyhTQy4kb2x67AEpnU4ok2D
+      jo0gS/6Ydah6GJfLFVVbXyCMxTuBHI5tjEbXwd3biSU8tuAycTXA6tWrF54H6BlGGe03pAuU
+      mVtAZWV0XaDmSR3NHPsGV6Y0SsvWRt0FapxQ0Syx973Dkyqla8uj7gKZ2voN6wLd+O5ApIxP
+      BQm3tGIyoAuUW7iGyuKFv6wjhkEFCY0wgCChiagLpGsqB3/+D5jXf5bgtXcxrypkfUE6h083
+      k5GzmqCnjfGQhWee/SKW5REHFyQ4ERlAkk3UrK/gvKJRUrGWxsZmTrRe5L7PfHumTnCB08uA
+      qBMcuQ4RhptBVY0L0Wm32CYRGUBTg5yr/4BGWaGkdjWSppJfsZ73fvcC6bmVBDzttIbN7BF1
+      giPXIcJwM5hMUQ7hzoN8i20S4c1xbTz19e/x1PXn92zeDsCuqOUJBIuLuAgWJDTCAIKERhhA
+      kNAIAwgSGmEAQUIjDCBIaIQBBAmNMIAgoREGECQ0kYXhdI2Tb72EvXQ3jgkXjR2D7Lp/O8eO
+      nKCoqha/x8VoyML+fZ9CZOEEy4GIwxqZSTLXhqcYv3qNh7ZX8PwPf8ST3/geZ3/7L5jtq8kw
+      TeEJ6GSJOsGR6RBhuBmWbBhOkmScDjso03c1dw+NUVJSwJC7BywpaEqASVUjySLNhOBEGO42
+      dYgw3AxLNgynqUE6J2ykmPvZ/cR+mjoG+MKX9/HBudNs+v3PExjuZiRkJUXcGFewTIg4Dbpz
+      996Z51tXTH/XcuPWewFIc5ayykBxAkG8EaNAgoRGGECQ0AgDCBIaYQBBQiMMIEhohAEECY0w
+      gCChEQYQJDRRG6Cz6RJvvfMuo94pTh57l/4RL+1Nl6i/1GSkPoEgrkR9d+jjR46QX7sT94U3
+      YdUO3vjNfyLLSSRLQUqrykkzga7rC4bhDEUn6vcxWt4d+X9vKWJp6Ihag5Hab7EPRm2AL3z9
+      T3Gdep2D7zfzqS8+iq4GkcxpWOUQIRU0SUO/XjRiPoxMYWo3eZ9boetGpkG1GHQYt9E1TY1B
+      hzEadKLfJobuG9rNt0nUBmi6WE/bmImvfeMbHD/8O7bvfhK/p5mRkJUsm4R0izrBRqYwZVla
+      8H1u3dbINKgctQ7JwDSobDLFoMMYDRIxbJMo2y20rpvpiNoAVRu3UrVx+vH+pz4z/aA0d9Yy
+      fX19N6kQM4l5dMyQInmDUheNpuiKS4y5e5AnFq4gcrtYghqtLa6oi+SNe3qRvQboCGi0uJpx
+      WKMskjc6ZFCRvCCNjY1RtfUHFSwT48ih2A5Osq7T29mG7B9acJm4VojJyclZ8Ahr6h1BGe3D
+      ZIABMlcXUF5edOsF56HZq6HJsVeICfs0StaUkp5sj6p944SKFqWJZ+mY0lizpowUZ3Slmkxt
+      /WiSARVi9BTKy8ujajvhCxJ2tWJKirVEkk5uQTHlRZkLLhNXA8jywl0CSZanz7cG1AiTYugC
+      SbJsiAYk6ab/762bG/NZIIEcQ1fMqG2CFku31AQSMevQtentG5cu0O0g6gTfPqJO8If4g2Es
+      42PIwVi7QNDT0QJTAwsuE/cieXl5efO+ZukdRRlzG1IkLyu3kMrK6LpALVMYU5zuepG8aLtA
+      TZM6msWAesWTGmvLy6OuVmnq8Cx6kTyvL0i4tQNTcoxdIE0nr3ANlYvVBXK73Te/CB4bN+QM
+      MCR30xzlzjM+0Ic8MR6zBsv1MqnRngEmBvqQvQboCGi0trREfwYYGzboDBCiubk5qrb+YBiL
+      dzzmMqnoOn3dHZiCIwsuElcD5ObmLtj/MvcMo4wZUyY1K6+QqqroyqS6pkAzG3cGiLZM6jWv
+      ZtAZQKWsPIYyqe1uw84AVVVVUbWdLpPaZkiZ1LyiNVSJMqkCwfwIAwgSGuMMoKu8/Mt/599+
+      9kuUxY+hCAS3hXEGCE8wpaaQaw3jib1LLRDcEYy7CLYkIwUGaVdMPGDTUVWNUCg0E0QymUxo
+      mjYT+kqyyuzMLsOIm4iuSnYQCARQ1ek7ismyjCRJs57DhyGrjz4vWZmOppfGrEFL19FVBZ/P
+      hyzLM/+rdH2C7GbaJEmiKD0VSTJGhxYOMTU1fTvAj37uN7Tc7Pm2/CImgrEfwZLMFvz+6Rn2
+      j+4DHw1IfnyfuPFcU1R25a9FjnWEUIdUh4lAILDg+0q6gTFEVQmj6RIWy7SvVFWNfkZSILgD
+      GDoMajJb+OjuHmus9cZRSaxDrCMe69B1ffGyQHcKTdOQJMnQuHE0LJWz4VLQcaM7stg6VFU1
+      tgskECw34noGiJS3Dr6CbF/B9h07uHjyHXyahQ01G+l3D1K7oYqGhgvcs7E2LpMXzVcukLu2
+      luToIjRxYaTHxaQtkyt1x5DtdmrvfYC6t1/m049/nq4rJwnY86mtKr4jWsY9HQyraSQF3Sjp
+      qzn31juk5Kzmkzvvw2JAnOXm6DRerMfj1cm2Bkgt3Uz+Sqcha15SBnB19POVp2v5+S9fJTTc
+      yv7f+xypVo0Xz56ndkMVp06eZMPG2ri898VzJ0gurEUdaefI6YvkFlfhbr2IFvKzcddDNLxf
+      hyV5JWbVzwPbq6m74mZyqAfsaex/eE9cKuIMtF+mL3U9H1xpY8+2Qs5e7eT02wfJrtxJ74VT
+      TNhr7pgBRnubOd5hIWviEmk7H6VrIMRmZzsNHRVsLV04bGYEkwMtnLjk5qtPP0zT2Tp8E328
+      dOQy69ZX03LlImvW1dDXepWJkMzjTzyGNYIj5JKbCXYmp+OfmgB9usLIne6hvXfoID6TjbbW
+      FobHfFRm2XjzzUM4Czcx2nYN1TfAf/z2CAQ8SCsrmOx0MX/g2zh0TcPicBDyTZFfeQ9dDUdJ
+      Wpl7x8tQqYqKcn34tst1FXc4mYq89Li/b8g3gS0pFbPZzEB3B+P+MMGgD9eZdwllbWBttpWe
+      CZl8eZBGT2R5qiVlAJsc5vU3j/DYE4+TnbWCzo4OvEEN/GO8X3+Z9CQLR4+dIKgY96XpG2Rm
+      ZnPmvcOUbr4XORiiqrKc3NzVOFeuombrDkZbz+JYXczevQ/S0+Plvnt3EHBfwZxdQIrhaqZx
+      pmexItnJyjQHfUNTFBfmUFBSSZJJobJmK7k5GXF657k4UlayvrqSdRtqSHc42LFnDwcOPEmq
+      Pf6diBWF95ApD/LW0TrSsnJIcTrJysjAlFmI2nse10CQTJufNl8yFdmRhQD/P9+4nElgT0ah
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1 (2)' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAIlElEQVR4nO3d629T9x3H8bdDnEshISSENIVAMkrYItqpbKqGxqZtXSW0PdkfgNQH+/+Q
+      eDap20q3bs1SNMRFJCGQG8Fx7mA7tmOf498eHNJyCyT2sY/Pvp+XhIhMbH8f+M25Hyeccw4R
+      o1qiHkAkSgpATFMAYpoCENMUgJimAMQ0BSCmKQAxTQGIaQpATFMAYpoCENMUgJimAMQ0BSCm
+      KQAxTQGIaQpATFMAYpoCENMUgJimAMQ0BSCmKQAxTQGIaQpATFMAYpoCENMUgJimAMQ0BSCm
+      KQAxTQGIaQpATFMAYpoCENMUgJimAMQ0BSCmKQAxTQGIaQpATFMAYpoCENMUgJimAMQ0BSCm
+      KQAxrTXqAUTqzjmoVKDiwD3/2/N56hIknHMu6vlEQrH7Uc7mYGMLnmWDn59lIZ+Hsg++B54P
+      wBdzWgJI3DkHzzKwsg7Lq7CyBtv5fT9dAUj8OAe5bZhfgpm5IIAqV2QUgMSH58PiEkw9hLUN
+      8Cs1v6QCkOZX9mBmFu7PQCYb6ksrAGlevg/Tj+DOJOQLdXkLBSDNx7lgg3biFmw+retbKQBp
+      Ltt5uHkHZheq3rA9CAUgzcE5WFqGbyagUGzY2yoAiZ7nw627cG+6If/rv0gBSLSyOfj6W1jd
+      iOTtFYBEZ30T/v4N5PZ/5DZsCkAazzlIr8FX/4LiTqSjKABpvKXl4MP//KS0KCkAaazHqWC1
+      J4TTGMKgC2KkcdY24OvxpvnwgwKQRslk4a//hFIp6kleogCk/nZK8OU/GnqAa78UgNRXxcG3
+      N4OrspqQApD6mn4Is4tRT7EnBSD1s7EF392Oeoq3UgBSH5VKcGKb50U9yVspAKmPqYfBEqDJ
+      KQAJ33Yebt2Leop9UQASLufgv3eDXZ8xoAAkXJtP4dFC1FPsmwKQcN2dCjaAY0IBSHieZmDh
+      cdRTHIgCkPDcm2qqE932QwFIOArF4E4OMaMAJByLT5riApeDUgBSO+ditefnRQpAapfJQno1
+      6imqogCkdvNLUU9QNQUgAHieh+9XsQ7vHKTS4Q/UILooXigUCly7do3z589z9uxZ1tfXGRwc
+      ZHNzk6NHj37/e+l0mpMnT7K5ucnp06eDB0vlWJz0thcFIHR0dNDf308mk+H69evkcjlGR0cZ
+      Hh5mZmaGlpYWUqkU2WyWoaEhRkZGfnjy1tMggphSAEK5XMY5RzabZWBggDNnztDT08PIyAjb
+      29vkcjkGBgYYHByku7ubc+fO/fDk5Xhu/O7St0RKbf7yFaRWop6iKl/MaSNYauEcZHJRT1ET
+      rQIJ+Xyeqakpent7efToEZcvXyaZTDIxMUF7eztHjhxhcXGRCxcuMDs7y9jYGIlEgu629tic
+      978XLQGMc84xMTFBOp1menqajo4OlpaC/fpjY2OkUikGBgZIJBKMj4+Tz+e5ceMG8/PzuO08
+      lOO7AQwKwLxcLsfS0hKTk5OUy2VaW1vZ2Qnu2Dw+Ps6lS5cASCaTnDp1io2NDcrlMplMhsqz
+      TJSjh0KrQMZ1dXVx9epV5ubmKJfLLCwsMDo6SiqVolQq8eDBAw4fPkyxWOTixYv09fWRTCZZ
+      Xl6mJearP6C9QFKLO5Nws7nv+/M2f57ztAokNWjye/68y3D7ugKQGsR8A7jzZJcCkBrE8AKY
+      Xc45iv3HFIDUoDW++1BKPhzafKIApAath6KeoGqlCpxIFxSA1KAtGfUEVSt6jr7scQUgNUjG
+      N4CC70hUWhWA1KCzI+oJqlZ8vgdXAUj1uruinqBqeS84/qsApHqdHZCM556gggKQmrW3QUc8
+      V4O0CiS1SyTgaPxWg5xzWgJISPr7op7gwLxK8AcUgNRq8ETUExxY0XfsngKtAKQ2vcdid0Cs
+      8MJJrApAatOWhL5jUU9xILvr/6AAJAxDJ6Oe4ECKWgJIqIaHgj1CMaElgITrcGdsNoadcxR8
+      BSBhSiTgw5F3/16T0CqQhG/og1jsDXIEp0LvUgASjvY2OPejqKd4J98FF8PsUgASnrFzTX+V
+      WPGVG1koAAlP1xEYOR31FG/14h4gUAASto9+DC3N+7FSAFJfR7vhfPNuCygAqa9EAj75qGkv
+      lyxoG0DqrqMdfvZx1FO8UVFLAGmID4dh4HjUU7wkOAr88mMKQOqjpQV++Sm0tUU9yfd8ByVf
+      SwBplJ5u+MVFaJLz5HwH5crLjykAqa+zZ5rmCHHJh8or34ahAKS+Egn49BPo7Yl6ktd2gYIC
+      kEZoS8Lnvw6OFEdIAUh0Dr8Hn12O9D5CCkCi1dsDv78c2d3kXj0IBgpAGu3EcfjsV8Hp0w1W
+      9LUEkGbwwQBc+S2819nQt82XFYA0i75j8MfPGnZrRa/iKL3hK80UgESn6wj84XfB5ZR15lWC
+      A2GvUgASrc7OYO/Qz39a1+sIdnynAKRJtbTAxz+BK78JdpfWQXGPb3RVANI83j8Bf7oCY6Nw
+      KNyP5puOAQAknHNv/heRqDgHG1vw3W1YXgnlJSc3PR5sVV57XAFI86pUYG4Rbt+Hp5maXurW
+      qsdiVgFIHPkVWFiCu5PBkqEK/06VWSu8/lFXABIfzkF6De5Pw5MV8N5wbsMe/rZYIld+/fF4
+      fsWf2JRIBDfhfb8fdkrwOAUP52FlLVhd2kPFuT33AmkJIPHmHGwXYG0dllchvQqZ3EtBFD3H
+      l4vl1y6GAQUg/4+285DJBiE8y7K9keE/D7bwdsp4Ox7lnXIQDgpAjPJLHg4FIMbpSLCYpgDE
+      NAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDE
+      NAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDE
+      NAUgpikAMU0BiGkKQExTAGKaAhDTFICYpgDENAUgpikAMU0BiGn/AyLj3vXPPI/6AAAAAElF
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
