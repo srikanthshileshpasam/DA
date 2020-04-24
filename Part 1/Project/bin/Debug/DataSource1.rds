@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSource1">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=LAPTOP-47C8DGE1;Initial Catalog=IT_Inventory_System</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>e70d39f4-481d-46f1-a608-ba92e060ebbf</DataSourceID>
+</RptDataSource>
